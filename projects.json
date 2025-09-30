@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Hybrid Ant Colony Optimization",
+    "desc": "Engineered an AI-powered route optimizer using ACO and ML, improving route efficiency by 32%.",
+    "image": "assets/images/ACO.png",
+    "links": {
+      "code": "https://github.com/GaneshUdimudi"
+    }
+  },
+  {
+    "name": "Phishing Detection App",
+    "desc": "Developed a phishing detection system with 92% classification accuracy using NLP models.",
+    "image": "assets/images/phishing.gif",
+    "links": {
+      "code": "https://github.com/GaneshUdimudi/Phishing"
+    }
+  },
+  {
+    "name": "Code Genie",
+    "desc": "Co-developed an online code platform, improving code snippet retrieval efficiency by 28%.",
+    "image": "assets/images/project3.png",
+    "links": {
+      "code": "https://ganeshudimudi.github.io/CODE_GENIE/"
+    }
+  }
+]

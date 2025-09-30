@@ -1,0 +1,17 @@
+[
+    { "name": "Python", "icon": "devicon-python-plain-wordmark" },
+    { "name": "Java", "icon": "devicon-java-plain-wordmark" },
+    { "name": "HTML5", "icon": "devicon-html5-plain-wordmark" },
+    { "name": "CSS3", "icon": "devicon-css3-plain-wordmark" },
+    { "name": "JavaScript", "icon": "devicon-javascript-plain" },
+    { "name": "React", "icon": "devicon-react-original-wordmark" },
+    { "name": "Flask", "icon": "devicon-flask-original-wordmark" },
+    { "name": "MySQL", "icon": "devicon-mysql-plain-wordmark" },
+    { "name": "MongoDB", "icon": "devicon-mongodb-plain-wordmark" },
+    { "name": "Salesforce", "icon": "devicon-salesforce-plain" },
+    { "name": "Apex", "icon": "devicon-salesforce-plain" },
+    { "name": "Cisco", "icon": "devicon-cisco-plain-wordmark" },
+    { "name": "Git", "icon": "devicon-git-plain-wordmark" },
+    { "name": "GitHub", "icon": "devicon-github-original-wordmark" },
+    { "name": "VS Code", "icon": "devicon-vscode-plain-wordmark" }
+]

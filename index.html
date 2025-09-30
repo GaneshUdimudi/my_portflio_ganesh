@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Ganesh Udimudi | Portfolio</title>
+</head>
+<body>
+    <div id="particles-js"></div>
+
+    <header>
+        <a href="#home" class="logo"><i class="fab fa-react"></i> Ganesh</a>
+        <div id="menu" class="fas fa-bars"></div>
+        <nav class="navbar">
+            <ul>
+                <li><a class="active" href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#work">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="home" id="home">
+            <div class="content">
+                <h1>Hi There,<br/> I'm Ganesh <span>Udimudi</span></h1>
+                <p>I am an <span class="typing-text"></span></p>
+                <a href="#about" class="btn"><span>About Me</span><i class="fas fa-arrow-circle-down"></i></a>
+                <div class="socials">
+                    <ul class="social-icons">
+                        <li><a class="linkedin" aria-label="LinkedIn" href="https://linkedin.com/in/ganeshudimudi19/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a></li> 
+                        <li><a class="github" aria-label="GitHub" href="https://github.com/GaneshUdimudi" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="image">
+                <img draggable="false" class="tilt" src="assets/images/pic.jpg" alt="Ganesh Udumudi">
+            </div>
+        </section>
+
+        <section class="about" id="about">
+            <h2 class="heading"><i class="fas fa-user-alt"></i> About <span>Me</span></h2>
+            <div class="row">
+                <div class="image">
+                    <img draggable="false" class="tilt" src="assets/images/pic.jpg" alt="Ganesh Udumudi">
+                </div>
+                <div class="content">
+                    <h3>My name is Ganesh Udumudi</h3>
+                    <span class="tag">AI & Machine Learning Student</span>
+                    <p>I am a B.Tech student specializing in AI & Machine Learning, passionate about developing practical AI solutions and web applications. I focus on clean code, scalable design, and measurable impact.</p>
+                    <div class="box-container">
+                        <div class="box">
+                            <p><span>Email : </span> ganeshudimudi19@gmail.com</p>
+                            <p><span>Place : </span> Hyderabad, India</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="skills" id="skills">
+            <h2 class="heading"><i class="fas fa-laptop-code"></i> Skills & <span>Abilities</span></h2>
+            <div id="skillsContainer">
+                </div>
+        </section>
+
+        <section class="work" id="work">
+            <h2 class="heading"><i class="fas fa-laptop-code"></i> Projects <span>Made</span></h2>
+            <div class="box-container" id="projectsContainer">
+                </div>
+        </section>
+
+        <section class="experience" id="experience">
+            <h2 class="heading"><i class="fas fa-briefcase"></i> Experience </h2>
+            <div class="timeline">
+                <div class="container right">
+                    <div class="content">
+                        <div class="tag"><h2>Salesforce</h2></div>
+                        <div class="desc">
+                            <h3>Virtual Internship Program</h3>
+                            <p>Completed 110+ hours of Salesforce Development training, architecting components with Apex, Lightning, and Flow automation.</p>
+                            <h4>May 2025 - Jul 2025</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="education" id="education">
+            <h2 class="heading"><i class="fas fa-graduation-cap"></i> My <span>Education</span></h2>
+            <div class="box-container">
+                <div class="box">
+                    <h3>B.Tech, Artificial Intelligence & ML</h3>
+                    <p>Malla Reddy College of Engineering and Technology</p>
+                    <h4>2022-2026 | Pursuing (CGPA: 8.67)</h4>
+                </div>
+                <div class="box">
+                    <h3>Junior College | MPC</h3>
+                    <p>Aditya Junior College</p>
+                    <h4>2020-2022 | Completed (CGPA: 7.73)</h4>
+                </div>
+                 <div class="box">
+                    <h3>SSC</h3>
+                    <p>SunShine High School</p>
+                    <h4>2020 | Completed (CGPA: 8.63)</h4>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <h2 class="heading"><i class="fas fa-headset"></i> Get in <span>Touch</span></h2>
+            <div class="container">
+                <div class="content">
+                    <div class="image-box">
+                        <img draggable="false" src="assets/images/contact1.png" alt="">
+                    </div>
+                    <form id="contact-form">
+                            <input type="text" name="honeypot" style="display:none;"><div class="form-group">
+                            <div class="field"><input type="text" name="name" placeholder="Name" required><i class='fas fa-user'></i></div>
+                            <div class="field"><input type="email" name="email" placeholder="Email" required><i class='fas fa-envelope'></i></div>
+                        </div>
+                        <div class="message"><textarea placeholder="Message" name="message" required></textarea><i class="fas fa-comment-dots"></i></div>
+                        <div class="button-area"><button type="submit" id="submit-btn">Submit <i class="fa fa-paper-plane"></i></button></div>
+                        <div id="form-status"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="socials">
+            <a aria-label="LinkedIn" href="https://linkedin.com/in/ganeshudimudi19/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a> 
+            <a aria-label="GitHub" href="https://github.com/GaneshUdimudi" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+        </div>
+        <p class="credit">Designed with <i class="fa fa-heart pulse"></i> by Ganesh Udumudi</p>
+    </footer>
+
+    <a href="#home" class="fas fa-angle-up" id="scroll-top" aria-label="Scroll to top"></a>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js" defer></script>
+    <script src="https://unpkg.com/scrollreveal" defer></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js" defer></script>
+    <script src="script.js" defer></script>
+
+</body>
+</html>

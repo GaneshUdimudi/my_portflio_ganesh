@@ -2,7 +2,7 @@
 
 This repository contains the source code for the personal portfolio of Ganesh Udumudi. This project was developed in September 2025 to serve as a professional showcase of his skills, projects, and experience.
 
-**Live Demo:** `[INSERT YOUR LIVE GITHUB PAGES LINK HERE]`
+**Live Demo:** `[(https://ganeshudimudi.github.io/my_portflio_ganesh/)]`
 
 ---
 

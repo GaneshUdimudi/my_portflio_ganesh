@@ -27,6 +27,8 @@ body {
   background: var(--background-light);
   font-family: 'Poppins', sans-serif;
   color: #333;
+  visibility: hidden; 
+
 }
 
 main {
